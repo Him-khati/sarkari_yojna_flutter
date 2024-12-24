@@ -1,0 +1,5 @@
+
+enum YojnaListLayoutType{
+  horizontalScrollingCardsListLayout,
+  verticalCardListLayout
+}

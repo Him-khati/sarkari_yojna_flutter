@@ -1,0 +1,171 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4577661289402511268",
+      "lastPropertyId": "7:5387730876651114006",
+      "name": "AuthorEntity",
+      "properties": [
+        {
+          "id": "1:7399813272846289554",
+          "name": "objectBoxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:938769924189506050",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:3516967791734906826",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:7391110198550816852",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "5:8831783470629908817",
+          "name": "created",
+          "type": 10
+        },
+        {
+          "id": "6:7152554142329696747",
+          "name": "updated",
+          "type": 10
+        },
+        {
+          "id": "7:5387730876651114006",
+          "name": "picture",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:4545096026662797620",
+      "lastPropertyId": "9:1586953685601173075",
+      "name": "TagEntity",
+      "properties": [
+        {
+          "id": "1:4189957311306911388",
+          "name": "objectBoxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3918567851784444345",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:5455366546891733629",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:8152502731593021328",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "5:6188655464063125828",
+          "name": "lowerLimit",
+          "type": 6
+        },
+        {
+          "id": "6:4225331317816910525",
+          "name": "upperLimit",
+          "type": 6
+        },
+        {
+          "id": "7:5484792596356462246",
+          "name": "values",
+          "type": 30
+        },
+        {
+          "id": "8:7803460639081560290",
+          "name": "created",
+          "type": 10
+        },
+        {
+          "id": "9:1586953685601173075",
+          "name": "updated",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2783612592300339403",
+      "lastPropertyId": "7:3339349667027929452",
+      "name": "YojnaEntity",
+      "properties": [
+        {
+          "id": "1:1369411662909207183",
+          "name": "objectBoxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1876568426039296384",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:5025041437993447974",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "4:8292026407588600115",
+          "name": "content",
+          "type": 9
+        },
+        {
+          "id": "5:8355882287784041441",
+          "name": "created",
+          "type": 10
+        },
+        {
+          "id": "6:3845206290575736982",
+          "name": "updated",
+          "type": 10
+        },
+        {
+          "id": "7:3339349667027929452",
+          "name": "art",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:6528481031404950251",
+          "name": "tags",
+          "targetId": "2:4545096026662797620"
+        },
+        {
+          "id": "2:430383899509204754",
+          "name": "authors",
+          "targetId": "1:4577661289402511268"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "3:2783612592300339403",
+  "lastIndexId": "0:0",
+  "lastRelationId": "2:430383899509204754",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

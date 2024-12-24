@@ -1,0 +1,47 @@
+name: sarkari_yojna_flutter
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flex_color_scheme: ^7.3.1
+  go_router: ^14.6.2
+  flutter_bloc: ^8.1.6
+  dio: ^5.7.0
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.15
+  svg_path_parser: ^1.1.2
+  rive: ^0.13.19
+  sqflite: ^2.4.1
+  objectbox: ^4.0.3
+  pretty_dio_logger: ^1.4.0
+  retry: ^3.1.2
+  appwrite: ^13.0.0
+  bloc: ^8.1.4
+  get_it: ^8.0.2
+  objectbox_flutter_libs: ^4.0.3
+  path_provider: ^2.1.5
+  equatable: ^2.0.7
+  relative_time: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  objectbox_generator: ^4.0.3
+  flutter_gen_runner: ^5.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/rive_animations/
+
